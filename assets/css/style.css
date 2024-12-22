@@ -52,7 +52,7 @@ body {
 }
 
 .logo {
-    width: 80px;
+    width: 150px;
 }
 
 .landing-page {
@@ -90,16 +90,6 @@ body {
 
 .trending-container {
     padding: 25px 50px;
-}
-
-.potatos-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.potatos-header h1 {
-    margin: 0px;
 }
 
 .trending-container span {
@@ -191,6 +181,7 @@ body {
 
 .logo {
     width: 80px;
+    
 }
 
 /* ---------------------------------------------------Best Sellers Page---------------------------------------------------------------- */
@@ -544,3 +535,25 @@ form .btn.submit-btn:hover {
     color: #c20051;
     font-weight: bold;
 }
+/* 
+#dynamic-greeting {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ad4d61; /* Soft dark pink color for text */
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #f8d7e2; /* Match the light pink background of the page */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#dynamic-date {
+    font-size: 1.5rem;
+    color: #6f3e4f; /* Another soft dark pink shade for text */
+    text-align: center;
+    background-color: #f8d7e2; /* Match the light pink background of the page */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+} */
