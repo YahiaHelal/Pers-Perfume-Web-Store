@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+body {
+    margin: 0px;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.header {
+    background-color: #ffc0cb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.header-links a{
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 0 5px;
+    border-radius: 20px;
+}
+
+.header-links a:hover {
+    background-color: #ff74af;
+}
+
+.btn:hover {
+    background-color: #ff0f74;
+}
+
+.btn {
+    transition: 0.3s;
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: #ff5ba0;
+    border: none;
+    color: white;
+}
+
+.logo {
+    width: 80px;
+}
+
+.landing-page {
+    background-color: #ffc0cb;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    color: white;
+    border-radius: 0 0 50px 50px;
+}
+
+.landing-page-search-bar input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.landing-page-search-bar button {
+    position: absolute;
+    left: 200px;
+    height: 30px;
+}
+
+.landing-page-image-container img{
+    border-radius: 15px;
+    width: 300px;
+}
+
+.landing-page-left-section {
+    width: 400px;
+}
+
+.trending-container {
+    padding: 25px 50px;
+}
+
+.potatos-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.potatos-header h1 {
+    margin: 0px;
+}
+
+.trending-container span {
+    color: #c20051;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#top-perfume {
+    font-family: "Roboto", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#top-perfume td, #top-perfume th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#top-perfume th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #c20051;
+    color: white;
+}
+
+#top-perfume tr:nth-child(even){background-color: #ffc0cb;}
+
+#top-perfume tr:hover {background-color: #ff0f74;}
+
+.top-perfume-title {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #ff5ba0;
+}
+
+footer {
+    background-color: #c20051;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+
+
+
+/* General Styles */
+body {
+    margin: 0px;
+    font-family: 'Roboto', 'sans-serif';
+    background-color: #fafafa;
+}
+
+.header {
+    background-color: #ffc0cb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.header-links a {
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 0 5px;
+    border-radius: 20px;
+}
+
+.header-links a:hover {
+    background-color: #ff74af;
+}
+
+.header-links a.active {
+    background-color: #ff5ba0;
+    color: white;
+}
+
+.logo {
+    width: 80px;
+}
+
+/* ---------------------------------------------------Best Sellers Page---------------------------------------------------------------- */
+.bestsellers-page {
+    padding: 20px 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffe4e1;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bestsellers-page h1 {
+    font-size: 28px;
+    color: #c20051;
+    margin-bottom: 20px;
+}
+
+.bestsellers-page ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.bestsellers-page ul li {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ffc0cb;
+    border-radius: 10px;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.bestsellers-page ul li:hover {
+    background-color: #ff74af;
+    color: white;
+}
+
+/* Featured Section */
+.featured-section {
+    margin: 20px 50px;
+    background-color: #ffe4e1;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.featured-section h2 {
+    font-size: 24px;
+    color: #c20051;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.featured-product {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.featured-img {
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.featured-details h3 {
+    font-size: 22px;
+    color: #c20051;
+    margin-bottom: 10px;
+}
+
+.featured-details p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.featured-details .btn {
+    transition: 0.3s;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #ff5ba0;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.featured-details .btn:hover {
+    background-color: #ff0f74;
+}
+
+/* Reviews Section */
+.reviews-section {
+    margin: 20px 50px;
+    padding: 20px;
+    background-color: #ffe4e1;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-section h2 {
+    font-size: 24px;
+    color: #c20051;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review {
+    background-color: #ffc0cb;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Footer */
+.footer {
+    background-color: #c20051;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+
+
+/* ---------------------------------------------------Special Offers Page---------------------------------------------------------------- */
+.offers-page {
+    padding: 20px 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffe4e1;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.offers-page h1 {
+    font-size: 28px;
+    color: #c20051;
+    margin-bottom: 15px;
+}
+
+.offers-page p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.offers-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.offers-list li {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #ffc0cb;
+    border-radius: 10px;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.offers-list li:hover {
+    background-color: #ff74af;
+    color: white;
+}
+
+.offer-tag {
+    background-color: #ff5ba0;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.btn.explore-btn {
+    transition: 0.3s;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #ff5ba0;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn.explore-btn:hover {
+    background-color: #ff0f74;
+}
+
+
+
+/* ------------------------------------------------------------Contact Page Styles------------------------------------------------------------------ */
+.contact-page {
+    padding: 30px 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-page h1 {
+    font-size: 32px;
+    color: #c20051;
+    margin-bottom: 15px;
+}
+
+.contact-page p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #c20051;
+    outline: none;
+}
+
+form .btn.submit-btn {
+    background-color: #c20051;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form .btn.submit-btn:hover {
+    background-color: #a00043;
+}
+
+.contact-info {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
+
+.contact-info h2 {
+    font-size: 20px;
+    color: #c20051;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+
+/* About Page Styles */
+.about-page {
+    padding: 30px 50px;
+    max-width: 900px;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-page h1 {
+    font-size: 36px;
+    color: #c20051;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-page p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-page h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.about-page ul {
+    list-style-type: disc;
+    margin: 10px 0 20px 30px;
+    color: #555;
+}
+
+.about-page ul li {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.about-page strong {
+    color: #c20051;
+    font-weight: bold;
+}
